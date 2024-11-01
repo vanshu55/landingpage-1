@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(39, 10, 34, 0.801);
+    display: flex;
+}
+
+#part1{
+    height: 100%;
+    width: 26%;
+    
+}
+#part2{
+    height: 100%;
+    width: 67%;
+    background-color: #80504a79 ;
+    background-image: url(https://media.istockphoto.com/id/1392970289/photo/red-haired-pet-rabbit-sitting-on-green-grass-with-pink-flowers-close-up-photo-of-a-pet.jpg?s=1024x1024&w=is&k=20&c=pXidGQSNH4j86GyRkYXEmPxX4VH7pGAt58yhzjwqM0g=);
+    background-position: center;
+    background-size: cover;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(161, 145, 149, 0.185);
+}
+#part3{
+    height: 100%;
+    width: 7%;
+    
+}
+#text-div{
+    
+    position: absolute;
+    width: 400px;
+     left: 15%;
+    top: 40%;
+    transform: translate(0-50%);
+}
+#text-div h1{
+    font-size: 95px;
+    font-family: monument;
+    font-weight: 800;
+    line-height: 78px;
+    letter-spacing: 8px;
+    color: #fff;
+    text-transform: uppercase;
+}
+#small-img-div{
+    height: 400px;
+    width: 400px;
+    background-image: url(https://media.istockphoto.com/id/1203965830/photo/the-bunny-brown-rabbit-on-green-grass-rabbit-easter-concept.jpg?s=1024x1024&w=is&k=20&c=QRUZz5uUqHvOiB_Po3Si8nSLFnelry7AhBMFxBTeRwY=);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    transform: translate(0-50%);
+}
+#vertical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -26%;
+    top: -4%;
+    transform-origin: 0% 0%;
+    
+}
+#vertical-text h1{
+    font-size: 70px;
+    font-weight: 900;
+    color: transparent;
+    font-family: monument;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+#nav{
+    color: #fff;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 500px;
+    left: 22%;
+    top: 6%;
+}
+#nav h5{
+    font-size: 25px;
+    font-family: gilroy;
+}
